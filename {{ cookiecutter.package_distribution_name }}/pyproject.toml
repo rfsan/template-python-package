@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "{{ cookiecutter.package_distribution_name }}"
+version = "0.0.1"
+description = ""
+requires-python = ""
+readme = "README.md"
+license.file = "LICENSE"
+authors = [
+    { name = "{{ cookiecutter.package_author_name }}", email = "{{ cookiecutter.package_author_email }}" },
+]
+dependencies = []
+classifiers = []
