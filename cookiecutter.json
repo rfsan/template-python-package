@@ -1,9 +1,6 @@
 {
     "package_distribution_name": "my-python-package",
-    "package_import_name": [
-        "{{ cookiecutter.package_distribution_name.lower().replace('-', '') }}",
-        "{{ cookiecutter.package_distribution_name.lower().replace('-', '_') }}"
-    ],
+    "package_import_name": "{{ cookiecutter.package_distribution_name.lower().replace('-', '_') }}",
     "package_author_name": "Rafael Sanabria",
     "package_author_email": "rafael.d.sanabria@gmail.com",
     "python_dev_version": "3.11"
