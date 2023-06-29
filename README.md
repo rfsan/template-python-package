@@ -1,2 +1,1 @@
-- git repo
 - VS Code

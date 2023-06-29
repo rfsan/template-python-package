@@ -31,5 +31,4 @@ subprocess.run(
 )
 
 # git init
-subprocess.run(["git", "init"])
-subprocess.run(['git', 'branch', '-M', 'main'])
+subprocess.run(["git", "init", "-b", "main"])
